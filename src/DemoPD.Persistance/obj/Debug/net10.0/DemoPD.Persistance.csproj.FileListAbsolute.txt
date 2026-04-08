@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\bin\Debug\net10.0\DemoPD.Persistance.deps.json
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\bin\Debug\net10.0\DemoPD.Persistance.runtimeconfig.json
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\bin\Debug\net10.0\DemoPD.Persistance.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\bin\Debug\net10.0\DemoPD.Persistance.pdb
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\bin\Debug\net10.0\DemoPD.Domain.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\bin\Debug\net10.0\DemoPD.Domain.pdb
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\obj\Debug\net10.0\DemoPD.Persistance.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\obj\Debug\net10.0\DemoPD.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\obj\Debug\net10.0\DemoPD.Persistance.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\obj\Debug\net10.0\DemoPD.Persistance.AssemblyInfo.cs
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\obj\Debug\net10.0\DemoPD.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\obj\Debug\net10.0\DemoPD.P.4F1687E5.Up2Date
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\obj\Debug\net10.0\DemoPD.Persistance.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\obj\Debug\net10.0\refint\DemoPD.Persistance.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\obj\Debug\net10.0\DemoPD.Persistance.pdb
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\obj\Debug\net10.0\DemoPD.Persistance.genruntimeconfig.cache
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Persistance\obj\Debug\net10.0\ref\DemoPD.Persistance.dll

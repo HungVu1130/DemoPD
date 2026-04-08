@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="src/DemoPD.API/DemoPD.API.csproj" />
+  <Project Path="src/DemoPD.Application/DemoPD.Application.csproj" />
+  <Project Path="src/DemoPD.Contract/DemoPD.Contract.csproj" />
+  <Project Path="src/DemoPD.Domain/DemoPD.Domain.csproj" />
+  <Project Path="src/DemoPD.Infrastructure/DemoPD.Infrastructure.csproj" />
+  <Project Path="src/DemoPD.Persistance/DemoPD.Persistance.csproj" />
+  <Project Path="src/DemoPD.Presentation/DemoPD.Presentation.csproj" />
+</Solution>
