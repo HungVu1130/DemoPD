@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\bin\Debug\net10.0\DemoPD.Contract.exe
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\bin\Debug\net10.0\DemoPD.Contract.deps.json
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\bin\Debug\net10.0\DemoPD.Contract.runtimeconfig.json
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\bin\Debug\net10.0\DemoPD.Contract.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\bin\Debug\net10.0\DemoPD.Contract.pdb
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.AssemblyInfo.cs
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\refint\DemoPD.Contract.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.pdb
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.genruntimeconfig.cache
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\ref\DemoPD.Contract.dll
