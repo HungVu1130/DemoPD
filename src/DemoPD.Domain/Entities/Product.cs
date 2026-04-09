@@ -15,7 +15,7 @@ public partial class Product
 
     public DateTime CreatedDate { get; set; }
 
-    public Guid? CategoryId { get; set; }
+    public Guid CategoryId { get; set; }
 
     public virtual Category? Category { get; set; }
 

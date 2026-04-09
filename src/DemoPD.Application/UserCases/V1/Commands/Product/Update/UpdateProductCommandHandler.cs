@@ -2,9 +2,11 @@
 using DemoPD.Application.UserCases.V1.Queries.Product;
 using DemoPD.Domain.Abstractions;
 using DemoPD.Domain.Abstractions.Repositories;
+using DemoPD.Domain.Entities;
 using DemoPD.Domain.Shared;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Text;
 
 namespace DemoPD.Application.UserCases.V1.Commands.Product.Update
@@ -21,18 +23,26 @@ namespace DemoPD.Application.UserCases.V1.Commands.Product.Update
 
         public async Task<Result<Guid>> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
-            var product = await _productRepository.GetByIdAsync(request.Id);
-
-            if (product == null)
+            try
             {
-                return Result.Failure<Guid>(new Error("Product.NotFound", $"Sản phẩm Id {request.Id} không tồn tại"));
-            }
-            product.ProductName = request.Name;
-            product.Price = request.Price;
-            product.Stock = request.Stock;
+                var product = await _productRepository.GetByIdAsync(request.Id);
 
-            await _unitOfWork.SaveChangeAsync(cancellationToken);
-            return Result.Success(product.ProductId);
+                if (product == null)
+                {
+                    return Result.Failure<Guid>(new Error("Product.NotFound", $"Sản phẩm Id {request.Id} không tồn tại"));
+                }
+                product.ProductName = request.Name;
+                product.Price = request.Price;
+                product.Stock = request.Stock;
+                product.CategoryId = request.CategoryId;
+
+                await _unitOfWork.SaveChangeAsync(cancellationToken);
+                return Result.Success(product.ProductId);
+            }
+            catch (DbException ex)
+            {
+                return Result.Failure<Guid>(new Error("2", "Khoa ngoai khong chinh xac"));
+            }
         }
     }
 }

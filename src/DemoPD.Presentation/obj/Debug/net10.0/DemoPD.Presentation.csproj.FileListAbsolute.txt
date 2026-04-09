@@ -30,3 +30,4 @@ C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\Dem
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\refint\DemoPD.Presentation.dll
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\DemoPD.Presentation.pdb
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\ref\DemoPD.Presentation.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\DemoPD.Presentation.sourcelink.json

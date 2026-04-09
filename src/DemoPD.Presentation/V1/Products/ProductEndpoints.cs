@@ -59,7 +59,7 @@ namespace DemoPD.Presentation.V1.Products
 
             app.MapPut("api/v1/products/{id:guid}", async ([FromBody] UpdateProductRequest request, ISender sender, Guid id) =>
             {
-                var command = new UpdateProductCommand(id, request.Name, request.Price, request.Stock);
+                var command = new UpdateProductCommand(id, request.Name, request.Price, request.Stock,request.CategoryId);
                 var  result = await sender.Send(command);
                 return result.IsSuccess ? Results.Ok(result.Value) : Results.BadRequest(result.Error);
             }).WithTags("Products");

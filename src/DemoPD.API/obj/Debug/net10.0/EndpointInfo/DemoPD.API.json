@@ -325,6 +325,10 @@
           "stock": {
             "type": "integer",
             "format": "int32"
+          },
+          "categoryId": {
+            "type": "string",
+            "format": "uuid"
           }
         },
         "additionalProperties": false

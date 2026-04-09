@@ -43,3 +43,4 @@ C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\obj\Debug\net10.0\r
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\obj\Debug\net10.0\DemoPD.Infrastructure.pdb
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\obj\Debug\net10.0\DemoPD.Infrastructure.genruntimeconfig.cache
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\obj\Debug\net10.0\ref\DemoPD.Infrastructure.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\obj\Debug\net10.0\DemoPD.Infrastructure.sourcelink.json

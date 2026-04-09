@@ -9,3 +9,4 @@ C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Domain\obj\Debug\net10.0\DemoPD.Do
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Domain\obj\Debug\net10.0\refint\DemoPD.Domain.dll
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Domain\obj\Debug\net10.0\DemoPD.Domain.pdb
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Domain\obj\Debug\net10.0\ref\DemoPD.Domain.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Domain\obj\Debug\net10.0\DemoPD.Domain.sourcelink.json

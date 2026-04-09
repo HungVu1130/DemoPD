@@ -29,6 +29,7 @@ namespace DemoPD.Application.UserCases.V1.Queries.Product.GetProductById
                 Name = product.ProductName,
                 Price = product.Price,
                 Stock = product.Stock,
+                CategoryId = product.CategoryId,
             };
             return Result.Success(response);
         }
