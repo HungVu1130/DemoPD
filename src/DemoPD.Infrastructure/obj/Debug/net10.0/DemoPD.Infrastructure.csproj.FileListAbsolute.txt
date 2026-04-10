@@ -1,6 +1,3 @@
-C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\bin\Debug\net10.0\DemoPD.Application.deps.json
-C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\bin\Debug\net10.0\DemoPD.Application.runtimeconfig.json
-C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\bin\Debug\net10.0\DemoPD.Application.exe
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\bin\Debug\net10.0\DemoPD.Infrastructure.exe
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\bin\Debug\net10.0\DemoPD.Infrastructure.deps.json
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\bin\Debug\net10.0\DemoPD.Infrastructure.runtimeconfig.json
@@ -44,3 +41,7 @@ C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\obj\Debug\net10.0\D
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\obj\Debug\net10.0\DemoPD.Infrastructure.genruntimeconfig.cache
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\obj\Debug\net10.0\ref\DemoPD.Infrastructure.dll
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\obj\Debug\net10.0\DemoPD.Infrastructure.sourcelink.json
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\bin\Debug\net10.0\FluentValidation.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\bin\Debug\net10.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Infrastructure\bin\Debug\net10.0\Microsoft.AspNetCore.Http.Features.dll

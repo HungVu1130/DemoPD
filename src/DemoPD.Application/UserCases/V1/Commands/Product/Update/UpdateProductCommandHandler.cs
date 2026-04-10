@@ -39,7 +39,7 @@ namespace DemoPD.Application.UserCases.V1.Commands.Product.Update
                 await _unitOfWork.SaveChangeAsync(cancellationToken);
                 return Result.Success(product.ProductId);
             }
-            catch (DbException ex)
+            catch (DbException)
             {
                 return Result.Failure<Guid>(new Error("2", "Khoa ngoai khong chinh xac"));
             }

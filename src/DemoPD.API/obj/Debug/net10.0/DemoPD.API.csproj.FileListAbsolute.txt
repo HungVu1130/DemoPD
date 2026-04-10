@@ -5,9 +5,6 @@ C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\obj\Debug\net10.0\DemoPD.API.A
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\obj\Debug\net10.0\DemoPD.API.AssemblyInfo.cs
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\obj\Debug\net10.0\DemoPD.API.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\obj\Debug\net10.0\DemoPD.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\bin\Debug\net10.0\DemoPD.Application.deps.json
-C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\bin\Debug\net10.0\DemoPD.Application.runtimeconfig.json
-C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\bin\Debug\net10.0\DemoPD.Application.exe
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\bin\Debug\net10.0\DemoPD.Contract.deps.json
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\bin\Debug\net10.0\DemoPD.Contract.runtimeconfig.json
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\bin\Debug\net10.0\DemoPD.Contract.exe
@@ -152,3 +149,5 @@ C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\bin\Debug\net10.0\tr\Microsoft
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\obj\Debug\net10.0\DemoPD.API.sourcelink.json
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\bin\Debug\net10.0\FluentValidation.dll
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.API\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll

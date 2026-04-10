@@ -18,11 +18,11 @@ namespace DemoPD.Application.UserCases.V1.Queries.Product.GetProductById
         public async Task<Result<GetProductResponse>> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
             var product = await _productRepository.GetByIdAsync(request.ProductId);
-            if (product is null)
-            {
-                return Result.Failure<GetProductResponse>(
-                    new Error("Product.NotFound", $"Sản phẩm với ID {request.ProductId} không tồn tại."));
-            }
+            //if (product is null)
+            //{
+            //    return Result.Failure<GetProductResponse>(
+            //        new Error("Product.NotFound", $"Sản phẩm với ID {request.ProductId} không tồn tại."));
+            //}
             var response = new GetProductResponse
             {
                 Id = product.ProductId,

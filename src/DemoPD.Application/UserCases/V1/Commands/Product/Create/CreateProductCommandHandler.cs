@@ -22,11 +22,13 @@ namespace DemoPD.Application.UserCases.V1.Commands.Product.Create
 
         public async Task<Result<Guid>> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
-            if (string.IsNullOrEmpty(request.Name))
-            {
-                return Result.Failure<Guid>(new Error("Product.NameEmpty", "Ten san pham khong duoc de trong"));
-            }
             var category = await _categoryRepository.GetByIdAsync(request.CategoryId);
+            if (category == null)
+            {
+                return Result.Failure<Guid>(new Error(
+                    "Category.NotFound",
+                    $"Không tìm thấy danh mục với ID: {request.CategoryId}"));
+            }
             var product = new Domain.Entities.Product
             {
                 ProductId = Guid.NewGuid(),
