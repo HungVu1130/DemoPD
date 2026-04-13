@@ -19,10 +19,6 @@ namespace DemoPD.Application.UserCases.V1.Queries.Category.GetById
         public async Task<Result<GetCategoryResponse>> Handle(GetCategoryByIdQuery request, CancellationToken cancellationToken)
         {
             var category = await _categoryRepository.GetByIdAsync(request.CategoryId);
-            if (category == null) 
-            {
-                return Result.Failure<GetCategoryResponse>(new Error("Category.NotFound", $"Khong tim thay san pham co Id = {request.CategoryId}"));
-            }
             var response = new GetCategoryResponse
             {
                 CategoryId = category.CategoryId,

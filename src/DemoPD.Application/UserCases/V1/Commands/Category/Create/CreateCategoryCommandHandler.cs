@@ -17,9 +17,6 @@ namespace DemoPD.Application.UserCases.V1.Commands.Category.Create
 
         public async Task<Result<Guid>> Handle(CreateCategoryCommand request, CancellationToken cancellationToken)
         {
-            if (string.IsNullOrEmpty(request.Name)){
-                return Result.Failure<Guid>(new Error("Category.NameEmpty", $"Ten danh muc khong duoc de trong"));
-            }
             var category = new Domain.Entities.Category
             {
                 CategoryId = Guid.NewGuid(),
