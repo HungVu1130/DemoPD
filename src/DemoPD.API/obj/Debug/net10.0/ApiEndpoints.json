@@ -124,6 +124,31 @@
     ]
   },
   {
+    "ContainingType": "DemoPD.Presentation.V1.OrderItems.OrderItemsAPI\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__0_4",
+    "RelativePath": "api/v1/delele/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Order Item"
+    ]
+  },
+  {
     "ContainingType": "DemoPD.Presentation.V1.Orders.OrdersAPI\u002B\u003C\u003Ec",
     "Method": "\u003CMapEndpoint\u003Eb__0_0",
     "RelativePath": "api/v1/order",
@@ -245,6 +270,105 @@
     ],
     "Tags": [
       "Order"
+    ]
+  },
+  {
+    "ContainingType": "DemoPD.Presentation.V1.OrderItems.OrderItemsAPI\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__0_0",
+    "RelativePath": "api/v1/orderItem",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "DemoPD.Application.UserCases.V1.Commands.OrderItems.Create.CreateOrderItemsCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Order Item"
+    ]
+  },
+  {
+    "ContainingType": "DemoPD.Presentation.V1.OrderItems.OrderItemsAPI\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__0_1",
+    "RelativePath": "api/v1/orderItem",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Order Item"
+    ]
+  },
+  {
+    "ContainingType": "DemoPD.Presentation.V1.OrderItems.OrderItemsAPI\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__0_2",
+    "RelativePath": "api/v1/orderItem/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Order Item"
+    ]
+  },
+  {
+    "ContainingType": "DemoPD.Presentation.V1.OrderItems.OrderItemsAPI\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__0_3",
+    "RelativePath": "api/v1/orderItem/{id:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "DemoPD.Application.UserCases.V1.Commands.OrderItems.Update.UpdateOrderItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Order Item"
     ]
   },
   {

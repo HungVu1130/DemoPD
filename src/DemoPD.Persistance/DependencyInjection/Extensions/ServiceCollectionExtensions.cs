@@ -19,6 +19,7 @@ namespace DemoPD.Persistance.DependencyInjection.Extensions
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IOrderItemsRepository, OrderItemRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
     }
