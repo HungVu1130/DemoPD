@@ -24,9 +24,13 @@ public partial class ApplicationDbContext : DbContext
 
     public virtual DbSet<Product> Products { get; set; }
 
+    public virtual DbSet<Role> Roles { get; set; }
+
+    public virtual DbSet<User> Users { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Host=localhost;Database=DemoDb;Username=postgres;Password=123456");
+        => optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=DemoDb;Username=postgres;Password=123456");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -101,6 +105,64 @@ public partial class ApplicationDbContext : DbContext
                 .HasForeignKey(d => d.CategoryId)
                 .OnDelete(DeleteBehavior.SetNull)
                 .HasConstraintName("fk_products_categories");
+        });
+
+        modelBuilder.Entity<Role>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("roles_pkey");
+
+            entity.ToTable("roles");
+
+            entity.HasIndex(e => e.Rolename, "roles_rolename_key").IsUnique();
+
+            entity.Property(e => e.Id)
+                .UseIdentityAlwaysColumn()
+                .HasColumnName("id");
+            entity.Property(e => e.Rolename)
+                .HasMaxLength(50)
+                .HasColumnName("rolename");
+        });
+
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("users_pkey");
+
+            entity.ToTable("users");
+
+            entity.HasIndex(e => e.Email, "users_email_key").IsUnique();
+
+            entity.HasIndex(e => e.UserName, "users_user_name_key").IsUnique();
+
+            entity.Property(e => e.Id)
+                .ValueGeneratedNever()
+                .HasColumnName("id");
+            entity.Property(e => e.CreatedDate)
+                .HasDefaultValueSql("now()")
+                .HasColumnName("created_date");
+            entity.Property(e => e.Email)
+                .HasMaxLength(150)
+                .HasColumnName("email");
+            entity.Property(e => e.PasswordHash).HasColumnName("password_hash");
+            entity.Property(e => e.UserName)
+                .HasMaxLength(50)
+                .HasColumnName("user_name");
+
+            entity.HasMany(d => d.Roles).WithMany(p => p.Users)
+                .UsingEntity<Dictionary<string, object>>(
+                    "Userrole",
+                    r => r.HasOne<Role>().WithMany()
+                        .HasForeignKey("Roleid")
+                        .HasConstraintName("fk_role"),
+                    l => l.HasOne<User>().WithMany()
+                        .HasForeignKey("Userid")
+                        .HasConstraintName("fk_user"),
+                    j =>
+                    {
+                        j.HasKey("Userid", "Roleid").HasName("userroles_pkey");
+                        j.ToTable("userroles");
+                        j.IndexerProperty<Guid>("Userid").HasColumnName("userid");
+                        j.IndexerProperty<int>("Roleid").HasColumnName("roleid");
+                    });
         });
 
         OnModelCreatingPartial(modelBuilder);

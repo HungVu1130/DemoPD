@@ -50,7 +50,7 @@ namespace DemoPD.Presentation.V1.OrderItems
             {
                 var query = new DeleteOrderItemCommand(id);
                 var result = await sender.Send(query);
-                return Results.Ok(result);
+                return Results.NoContent();
             }).WithTags("Order Item");
         }
     }

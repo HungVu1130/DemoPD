@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DemoPD.Application.UserCases.V1.Commands.Product.Create
 {
-    public class CreateCategoryCommandValidator : AbstractValidator<CreateProductCommand>
+    public class CreateProductCommandValidator : AbstractValidator<CreateProductCommand>
     {
-        public CreateCategoryCommandValidator() {
+        public CreateProductCommandValidator() {
             RuleFor(x => x.Name)
                 .NotEmpty().WithMessage("Bat buoc phai co ten san pham");
             RuleFor(x => x.Price)

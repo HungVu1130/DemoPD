@@ -22,9 +22,9 @@ C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\Dem
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\DemoPD.Presentation.AssemblyInfoInputs.cache
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\DemoPD.Presentation.AssemblyInfo.cs
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\DemoPD.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\DemoPD.Presentation.sourcelink.json
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\DemoPD.P.24373DFB.Up2Date
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\DemoPD.Presentation.dll
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\refint\DemoPD.Presentation.dll
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\DemoPD.Presentation.pdb
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\ref\DemoPD.Presentation.dll
-C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Presentation\obj\Debug\net10.0\DemoPD.Presentation.sourcelink.json

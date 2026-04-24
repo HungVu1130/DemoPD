@@ -7,9 +7,9 @@ C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.AssemblyInfoInputs.cache
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.AssemblyInfo.cs
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.sourcelink.json
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.dll
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\refint\DemoPD.Contract.dll
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.pdb
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.genruntimeconfig.cache
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\ref\DemoPD.Contract.dll
-C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Contract\obj\Debug\net10.0\DemoPD.Contract.sourcelink.json

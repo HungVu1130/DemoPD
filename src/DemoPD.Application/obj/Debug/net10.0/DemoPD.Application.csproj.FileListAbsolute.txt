@@ -8,9 +8,9 @@ C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Application\obj\Debug\net10.0\Demo
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Application\obj\Debug\net10.0\DemoPD.Application.AssemblyInfoInputs.cache
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Application\obj\Debug\net10.0\DemoPD.Application.AssemblyInfo.cs
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Application\obj\Debug\net10.0\DemoPD.Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Application\obj\Debug\net10.0\DemoPD.Application.sourcelink.json
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Application\obj\Debug\net10.0\DemoPD.A.AE27563D.Up2Date
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Application\obj\Debug\net10.0\DemoPD.Application.dll
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Application\obj\Debug\net10.0\refint\DemoPD.Application.dll
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Application\obj\Debug\net10.0\DemoPD.Application.pdb
 C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Application\obj\Debug\net10.0\ref\DemoPD.Application.dll
-C:\Users\Admin\source\repos\DemoPD\src\DemoPD.Application\obj\Debug\net10.0\DemoPD.Application.sourcelink.json

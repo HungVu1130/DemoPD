@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Y2Eq0k+J37g=",
+  "dgSpecHash": "mG/2zq6z5rc=",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\source\\repos\\DemoPD\\src\\DemoPD.Application\\DemoPD.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\mediatr\\14.1.0\\mediatr.14.1.0.nupkg.sha512",
